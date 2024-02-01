@@ -1,0 +1,22 @@
+{
+  "name": "mock-csv-generator",
+  "version": "1.0.0",
+  "description": "Mock CSV Generator - Simple command-line tool to create a whole bunch of CSV files of different sizes for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ajlouie",
+  "license": "MIT License",
+  "dependencies": {
+    "@faker-js/faker": "7.1.0",
+    "chalk": "5.0.1",
+    "commander": "9.2.0",
+    "conf": "10.1.2",
+    "filenamify": "^5.1.1",
+    "typescript": "4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
